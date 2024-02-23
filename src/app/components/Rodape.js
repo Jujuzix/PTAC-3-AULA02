@@ -1,4 +1,4 @@
-import './Todo.css';
+import '/Todo.css';
 export default function Rodape(){
     return(
         <header>

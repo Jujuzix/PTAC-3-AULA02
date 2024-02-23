@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import '/Todo.css';
+
 export default function Menu(){
     return(
         <header>
@@ -7,7 +10,8 @@ export default function Menu(){
                 <Link href="/">
                 <li>Home</li>
                 </Link>
-                <Link >
+                
+                <Link href="/registro" >
                 <li>Registrar</li>
                 </Link>
                 
