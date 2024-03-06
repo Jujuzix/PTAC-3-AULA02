@@ -1,3 +1,4 @@
+import "/Todo.css"
 import Link from 'next/link';
 import Image from "next/image";
 import styles from'./menu.module.css';
@@ -10,7 +11,7 @@ export default function Menu(){
     height={100}
     src={"https://www.ifms.edu.br/marcaifms.png"}
        />
-        <h1>Menu</h1>
+       
         <nav>
             <ul>
                 <Link href="/">
@@ -20,6 +21,12 @@ export default function Menu(){
                 <Link href="/registro" >
                 <li>Registrar</li>
                 </Link>
+
+                <Link href="/localiza" >
+                <li>Localizacao</li>
+                </Link>
+
+                
                 
             </ul>
         </nav>

@@ -1,0 +1,20 @@
+nav{
+text-align: center;
+}
+li{
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+  margin-right: 10px;
+}   
+
+main, h2{
+    text-align: center ;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

@@ -3,7 +3,9 @@ const nextConfig = {
 
     images: {
         domains: [
-            "www.ifms.edu.br"
+            "www.ifms.edu.br",
+            "www.liblogo.com",
+            "www.valuehost.com.br"
         ]
     }
 }
