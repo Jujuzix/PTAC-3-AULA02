@@ -18,12 +18,12 @@ export default function Menu(){
                 <li>Home</li>
                 </Link>
                 
-                <Link href="/registro" >
+                <Link href="registro" >
                 <li>Registrar</li>
                 </Link>
 
-                <Link href="/localiza" >
-                <li>Localizacao</li>
+                <Link href="localizacao" >
+                <li>Localização</li>
                 </Link>
 
                 
