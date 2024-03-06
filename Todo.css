@@ -18,3 +18,8 @@ main, h2{
     align-items: center;
    
 }
+
+.mapa{
+    width: 1000px;
+    height: 50000px;
+}

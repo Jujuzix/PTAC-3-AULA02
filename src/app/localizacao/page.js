@@ -1,5 +1,5 @@
 
-import Image from "next/image";
+import "/Todo.css"
 import Map from "../components/Map"
 
 export default function Localiza(){
