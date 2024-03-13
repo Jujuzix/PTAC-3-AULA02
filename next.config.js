@@ -5,7 +5,9 @@ const nextConfig = {
         domains: [
             "www.ifms.edu.br",
             "www.liblogo.com",
-            "www.valuehost.com.br"
+            "www.valuehost.com.br",
+           "www.ifms.edu.br",
+           
         ]
     }
 }

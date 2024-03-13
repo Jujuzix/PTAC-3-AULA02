@@ -1,4 +1,5 @@
 import styles from'./rodape.module.css';
+import "/Todo.css"
 import Image from "next/image";
 export default function Rodape(){
     return(
