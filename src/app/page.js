@@ -9,12 +9,13 @@ export default async function Home() {
   const campus = await resposta.json()
   return (
     <main>
-      <h1>Home</h1>
+      <h1>Principais Campus do IFMS </h1>
       {
         
         campus.map((campi)=>
            <div className="campusCard">
-            <Image width={100} height={100} src={campi.imagem_url}></Image>
+            <Image width={400} height={400} src={campi.imagem_url}></Image>
+            
             <p>{campi.nome_campi}</p>
          
            </div>

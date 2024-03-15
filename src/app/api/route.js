@@ -4,7 +4,7 @@ const campus = [
     {
       id:1,
       nome_campi: "Campus Nova Andradina",
-      imagem_url: "https://www.ifms.edu.br/imagens/imagens-noticias/abraco-pela-educacao/img_5497.jpg"
+      imagem_url: "https://www.ifms.edu.br/imagens/imagens-noticias/aqui-tem-ciencia-e-tecnologia/nova-andradina/imagem-materia.jpg"
     },
     {
       id:2,

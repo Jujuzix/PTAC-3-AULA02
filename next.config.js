@@ -7,7 +7,7 @@ const nextConfig = {
             "www.liblogo.com",
             "www.valuehost.com.br",
            "www.ifms.edu.br",
-           
+           "www.ifms.edu.br"
         ]
     }
 }
