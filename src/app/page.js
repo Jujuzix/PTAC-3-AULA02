@@ -1,22 +1,23 @@
 import "/Todo.css"
 import Image from "next/image";
 export default async function Home() {
-  const resposta = await fetch("http://localhost:3000/api",{
+  const resposta = await fetch("http://back-end-ifms.vercel.app/campi",{
     next:{
       revalidate: 1
     }
   });
-  const campus = await resposta.json()
+  const campi = await resposta.json()
   return (
     <main>
       <h1>Principais Campus do IFMS </h1>
+      <p>Uma página principal simples, para mais desenvolvimento</p>
       {
         
-        campus.map((campi)=>
+        campi.map((campus)=>
            <div className="campusCard">
-            <Image width={400} height={400} src={campi.imagem_url}></Image>
+            <Image width={400} height={400} src={campus.image_url}></Image>
             
-            <p>{campi.nome_campi}</p>
+            <p>{campus.nome_campus}</p>
          
            </div>
         
