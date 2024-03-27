@@ -6,9 +6,18 @@ export default async function Home() {
       revalidate: 1
     }
   });
+   
+ 
+  const products = await getProducts();
   const campi = await resposta.json()
   return (
     <main>
+     
+     <>
+     {products.map((product)=> (
+      <li key={product.id}>{product.name}</li>
+     ))}
+     </>
       <h1>Principais Campus do IFMS </h1>
       <p>Uma página principal simples, para mais desenvolvimento</p>
       {
